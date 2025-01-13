@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>31_xiaotingyun</title>
+        <meta name="description" content="上記DIVを画面幅に応じて拡大縮小（画像の画角が変わらないように）必ずimgタグで画像を配置（背景で画像を指定してはいけない）">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            div {
+                max-width: 300px;
+                width: 50vw;
+                aspect-ratio: 1.5/1;
+            }
+            img {
+                height: auto;
+                max-width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div><img src="30.png" alt="画像"></div>
+    </body>
+</html>
